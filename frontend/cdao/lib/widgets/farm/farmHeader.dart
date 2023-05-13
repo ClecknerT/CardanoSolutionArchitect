@@ -59,22 +59,6 @@ class _FarmHeaderState extends State<FarmHeader> {
             child: Center(
               child: Column(
                 children: [
-                  // ShaderMask(
-                  //   blendMode: BlendMode.srcIn,
-                  //   shaderCallback: (bounds) => gradient2.createShader(
-                  //     Rect.fromLTWH(0, 0, bounds.width, bounds.height),
-                  //   ),
-                  //   child: Text(
-                  //     '''Village Of''',
-                  //     textAlign: TextAlign.center,
-                  //     style: TextStyle(
-                  //         fontFamily: 'Alonira', 
-                  //         fontWeight: FontWeight.bold,
-                  //         color: Colors.orange, 
-                  //         fontSize: mWidth < 753 ? 20 : mWidth < 1225 && mWidth >= 753 ? 20 : 40), //1225
-                  //   ),
-                  // ),
-                  // SizedBox(height: mWidth < 753 ? mWidth/3 - 25 : mWidth < 1225 && mWidth >= 753 ? mWidth/3 + 20 : mWidth/7 * 2 + 75,),
                   ShaderMask(
                     blendMode: BlendMode.srcIn,
                     shaderCallback: (bounds) => gradient.createShader(

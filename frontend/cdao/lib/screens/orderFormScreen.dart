@@ -2,16 +2,11 @@ import 'dart:convert';
 import 'package:go_router/go_router.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:js/js.dart';
 import 'dart:js';
 import 'dart:js_util';
 import 'package:provider/provider.dart';
-
-// import 'package:address_search_field/address_search_field.dart';
-// import 'package:location/location.dart';
-// import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 import '../../models/mintResponse.dart';
 import '../../models/nftsModel.dart';

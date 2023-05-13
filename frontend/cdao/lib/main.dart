@@ -10,10 +10,8 @@ import 'package:flutter_web_plugins/url_strategy.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   usePathUrlStrategy();
-  // Dev
   await Firebase.initializeApp(
     options: 
-    // Dev 
     const FirebaseOptions(
       apiKey: "",
       authDomain: "",
@@ -25,19 +23,11 @@ void main() async {
     ),
   );
 
-  runApp(const CDAO()
-      // EasyLocalization(
-      //   supportedLocales: const [Locale('en', ''), Locale('es', '')],
-      //   path: 'lib/assets/translations',
-      //   fallbackLocale: const Locale('en', ''),
-      //   child: const CDAO())
-      );
+  runApp(const CDAO());
 }
 
 class CDAO extends StatelessWidget {
   const CDAO({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     var themeData = ThemeData(
