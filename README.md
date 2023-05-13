@@ -30,6 +30,7 @@ The frontend is written in Dart/Flutter using a dart/js interop service worker t
 - [ ] Scaled to handle many types of coffee and NFTs.
 - [ ] Obfuscate the lucidFunc
 - [ ] Order Form Field Validators
+- [ ] Localization
 
 # Backend
 The server runs on Google Cloud Products Cloud in a Cloud Run Container. It is built with a denoland/deno:latest Dockerfile stored in a private GCP docker repository(Artifact Registry). Cloud Run is only up when there is a request and you are only charged for uptime.
