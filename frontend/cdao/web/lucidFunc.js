@@ -3,7 +3,7 @@ async function connectWallet () {
   try{
     const cd =  await import( './lucid-cardano/esm/src/mod.js');
       const lucid = await cd.Lucid.new(
-        new cd.Blockfrost("https://cardano-preprod.blockfrost.io/api/v0", "preprodkiIrs2oYlyPSY0nbGKccYS2aSzLpnEbj"),
+        new cd.Blockfrost("https://cardano-preprod.blockfrost.io/api/v0", ""),
         "Preprod"
         );
       const api = await window.cardano.nami.enable();
